@@ -1,0 +1,49 @@
+ p{ 
+    color: blue;
+    font-size: 18px;
+  
+  }
+  button{
+    background-color: rgb(0, 242, 222);
+    font-size: 18px;
+  
+  }
+  .abc{
+    text-align: center;
+    background-color: rgb(205, 245, 100);
+    color: rgb(65, 0, 245);
+    font-size: 32px;
+    font-weight: bold;
+}
+  body{
+    height: 2000px;
+    overflow: visible;
+    background-color: gray;
+    border-left: 5px solid blue;
+    border-right: 5px solid blue;
+  }
+  h1{
+    color: rgb(240, 55, 165);
+    text-align: center;
+    font-size: 40px;}
+    #alien{
+        z-index: 1000;
+        position: sticky;
+        top: 0;
+       
+    }
+    textarea{
+        float: right;
+       
+       
+    }
+    .flex_container{
+        display: flex;
+        background-color: chartreuse;
+    }
+    .flex_container > div {
+        background-color: blueviolet;
+        margin: 20px;
+        padding: 20px;
+        font-size: 20px;
+    }

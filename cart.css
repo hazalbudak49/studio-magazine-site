@@ -1,0 +1,42 @@
+:root {
+  --blue: #0b0e52;
+  --gray: #D2D2D2;
+  --green: #79AB60;
+  --pink: #FFD7FA;
+  --magenta: #BA0991;
+}
+
+body{
+    background-color: #D2D2D2;
+
+}
+
+
+/* Navbar */
+#navbar {
+  margin: 20px;
+  background-color: var(--blue) !important;
+  
+}
+
+
+.navbar-brand, 
+.nav-link {
+  color: var(--pink) ;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: var(--pink) !important;
+}
+
+#logo{
+  align-content: center;
+   position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 7px;
+    margin: 10px;
+}
+
+

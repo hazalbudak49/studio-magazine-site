@@ -1,0 +1,135 @@
+:root {
+  --blue: #0b0e52;
+  --gray: #D2D2D2;
+  --green: #79AB60;
+  --pink: #FFD7FA;
+  --magenta: #BA0991;
+}
+
+/* NAVBAR */
+#navbar {
+  margin: 20px;
+  background-color: var(--blue) !important;
+}
+
+.navbar-brand, 
+.nav-link {
+  color: var(--pink) !important;
+  font-weight: 500;
+}
+
+.nav-link{
+  color: var(--pink);
+}
+
+.nav-link:hover {
+  color: var(--pink) !important;
+}
+
+#logo{
+  align-content: center;
+   position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 7px;
+    margin: 10px;
+}
+
+.btn{
+  color: var(--pink);
+  border-color: var(--pink);
+}
+
+/* BACKGROUND IMAGE */
+.background-image {
+  background: url("lena-ruffinatto-bxMpTGwkHws-unsplash.jpg") no-repeat center center/cover;
+  width: 100%;
+  height: 800px;
+ 
+}
+
+.image-text {
+  position: absolute;
+   bottom: 30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--magenta); 
+  text-align: center;
+  
+}
+
+
+
+/* BACKGROUND IMAGE 2*/
+.background-image2 {
+  background: url("lena-ruffinatto-8lPXltKcaCA-unsplash (2).jpg") no-repeat center center/cover;
+  width: 100%;
+  height: 800px;
+ 
+}
+
+/* CONTINOUS IMAGE CAROUSEL */
+.carousel-container {
+  width: 100%;
+  overflow: hidden;         /* Ensures only sliding images show; extra images remain hidden */
+  background-color: var(--blue);
+  padding: 20px 0;
+}
+
+/* Wrapper holding all scrolling images horizontally */
+
+.image-track {
+  display: flex;    /* Aligns images in a single row */
+  width: max-content;       /* Expands to fit all images placed inside it */
+  animation: scroll 15s linear infinite;
+
+  /* 
+    Smooth infinite horizontal scrolling:
+    - 15s duration chosen for relaxed viewing pace
+    - linear keeps constant speed
+    - infinite loops 
+  */
+}
+
+.image-track img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+ 
+ 
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);   /* Start position = fully visible from the left */
+  }
+  100% {
+    transform: translateX(-50%);  /* Slides half the width left. */
+  }
+  }
+
+
+/* stops the scrolling if preffered for accessibility */
+
+@media (prefers-reduced-motion: reduce) {
+  .image-track {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+
+/* FOOTER */
+
+.footer{
+  background-color: #0b0e52;
+  color: #FFD7FA;
+  padding: 20px;
+}
+
+.footer-link{
+  color: var(--pink);
+}
+  

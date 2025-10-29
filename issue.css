@@ -1,0 +1,76 @@
+:root {
+  --blue: #0b0e52;
+  --gray: #D2D2D2;
+  --green: #79AB60;
+  --pink: #FFD7FA;
+  --magenta: #BA0991;
+}
+
+body{
+    background-color: #D2D2D2;
+
+}
+
+/* NAvbar */
+#navbar {
+  margin: 20px;
+  background-color: var(--blue) !important;
+}
+
+.navbar-brand, 
+.nav-link {
+  color: var(--pink) !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: var(--pink) !important;
+}
+
+#items{
+    padding: 40px;
+    margin-top: 50px;
+}
+
+#logo{
+  align-content: center;
+   position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 7px;
+    margin: 10px;
+}
+
+#viewCard{
+    background-color: #0b0e52;
+    color: var(--pink) ;
+    border-color: var(--pink);
+    
+}
+
+.btn {
+    color: var(--gray);
+  background-color: #BA0991;
+}
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+.footer{
+  background-color: #0b0e52;
+  color: #FFD7FA;
+  padding: 20px;
+ 
+}
+
+.footer-link{
+  color: var(--pink);
+}
