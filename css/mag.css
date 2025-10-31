@@ -34,6 +34,12 @@
     padding: 7px;
     margin: 10px;
 }
+#viewCard{
+    background-color: #0b0e52;
+    color: var(--pink) ;
+    border-color: var(--pink);
+    
+}
 
 
 /* BACKGROUND IMAGE */

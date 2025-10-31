@@ -25,6 +25,12 @@
 .nav-link:hover {
   color: var(--pink) !important;
 }
+#viewCard{
+    background-color: #0b0e52;
+    color: var(--pink) ;
+    border-color: var(--pink);
+    
+}
 
 #logo{
   align-content: center;
